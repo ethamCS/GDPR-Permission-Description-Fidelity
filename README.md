@@ -1,4 +1,4 @@
 # GDPR-Permission-Fidelity
 
-Exploring the permisison-fidelity and how it apllies to the GDPR in mobile mHealth apps. 
+Exploring the permission-fidelity problem and how it applies to the GDPR in mobile mHealth apps.
 
