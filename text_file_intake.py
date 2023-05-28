@@ -2,7 +2,7 @@ from google_play_scraper import app
 from google_play_scraper import permissions
 import pandas as pd
 
-file_path = './app_List.txt'
+file_path = './app_ids.txt'
 
 def read_qualified_names(file_path):
     with open(file_path, 'r') as file:

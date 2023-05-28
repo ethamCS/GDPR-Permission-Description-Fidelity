@@ -1,8 +1,7 @@
 from google_play_scraper import app
-from google_play_scraper import permissions
 import pandas as pd
 
-
+# retrieving app descriptions
 
 app_List = ["com.winwalk.android","com.mapmyride.android2","com.achievemint.android"]
 
