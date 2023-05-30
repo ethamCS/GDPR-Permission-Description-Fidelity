@@ -9,7 +9,7 @@ k = "Fitness"
 
 def get_app_ids(key_search):
     keyword = str(key_search) #improve input
-    app_ids = []
+    
     results = search(keyword, n_hits=30)
     for result in results:
         app_id = result['appId']
@@ -17,10 +17,19 @@ def get_app_ids(key_search):
     return app_ids
 
 # Getting qualified names
+app_ids = []
 app_ids = get_app_ids(i)
 app_ids.append(get_app_ids(j))
 app_ids.append(get_app_ids(k))
 
+
+app_ids= sorted(set(app_ids))
+
+print(app_ids)
+
+
+'''
+app_ids = set(app_ids)
 # Write app IDs to a text file
 file_path = 'app_ids2.txt'
 with open(file_path, 'w') as file:
@@ -33,3 +42,4 @@ with open(file_path, 'w') as file:
     
 
 print(f"App IDs written to {file_path}")
+'''
