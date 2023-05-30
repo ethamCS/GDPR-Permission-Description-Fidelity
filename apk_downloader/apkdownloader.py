@@ -17,11 +17,6 @@ from .cfproxy import CFProxy
 import certifi
 import urllib3
 
-http = urllib3.PoolManager(
-        cert_reqs='CERT_REQUIRED',
-        ca_certs=certifi.where()
-        )
-
 base_url = "https://apksfull.com"
 download_url = "{}/dl".format(base_url)
 search_url = "{}/search/".format(base_url)
