@@ -1,4 +1,5 @@
 import sys
+import os
 import apk_downloader.apkdownloader as apkdl
 
 def download_apks(file_descriptor):
@@ -19,6 +20,11 @@ def main():
     except FileNotFoundError:
         msg = f'Error: "{filename}" could not be found'
         sys.exit(msg)
+
+    try:
+        os.mkdir("./apks")
+    except OSError:
+        pass 
 
     download_apks(app_ids_fd)
 
