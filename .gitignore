@@ -1,0 +1,8 @@
+### Ignore the downloaded apks
+apks/*
+
+### Ignore pyc files
+*.pyc
+
+### Get that mac garbage out of herre
+.DS_Store
