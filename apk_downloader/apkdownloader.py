@@ -14,9 +14,6 @@ import re
 from os import path, getenv
 from .cfproxy import CFProxy
 
-import certifi
-import urllib3
-
 base_url = "https://apksfull.com"
 download_url = "{}/dl".format(base_url)
 search_url = "{}/search/".format(base_url)
