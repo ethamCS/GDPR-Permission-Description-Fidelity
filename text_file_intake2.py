@@ -37,7 +37,6 @@ for app_name in app_List:
             df.loc[len(df.index)] = [app_name, app_id_count, sentence.strip()]
 
     app_id_count += 1
-    print(df)
 
 # Remove empty rows from the DataFrame
 df = df[df['Sentence'].str.len() > 0]
