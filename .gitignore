@@ -6,3 +6,6 @@ apks/*
 
 ### Get that mac garbage out of herre
 .DS_Store
+
+### Ignore list of app qualified names for now
+/app_qualified_names.txt
