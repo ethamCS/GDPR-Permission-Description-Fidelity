@@ -6,7 +6,7 @@ app_list = []
 
 def read_file():
     if len(sys.argv) < 2:
-        print("Usage: python3 text_file_intake.py filename")
+        print("Usage: python3 datatset_builder.py filename")
         sys.exit("Error: no file provided")
 
     filename = sys.argv[1]
