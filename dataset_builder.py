@@ -4,6 +4,10 @@ import sys
 
 app_list = []
 
+def main():
+    apps = read_file()
+    build_dataset(apps)
+
 def read_file():
     if len(sys.argv) < 2:
         print("Usage: python3 datatset_builder.py filename")
@@ -18,18 +22,6 @@ def read_file():
     except FileNotFoundError:
         msg = f'Error: "{filename}" could not be found'
         sys.exit(msg)
-
-def main():
-    apps = read_file()
-    build_dataset(apps)
-
-# def read_qualified_names(file_path):
-#     with open(file_path, 'r') as file:
-#         app_List = file.read().split("\n")
-#     return app_List
-
-
-# app_List = read_qualified_names(file_path)
 
 def build_dataset(apps):
     
