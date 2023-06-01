@@ -28,10 +28,14 @@ def build_dataset(apps):
     df = pd.DataFrame(columns=['App_Name', 'App_ID', 'Sentence'])
 
     app_id_count = 1
+    apps_not_found = 0
 
     for app_name in apps:
+        ### FIXME 
+        # Only temporary for dev stuff
         if app_id_count > 10:
             break
+
         if app_name == None:
             continue
         try:
@@ -42,6 +46,7 @@ def build_dataset(apps):
             )
         except:
             print(app_name)
+            apps_not_found += 1
             print("error: app not found")
             continue
 
