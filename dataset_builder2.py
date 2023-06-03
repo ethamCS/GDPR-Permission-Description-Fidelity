@@ -25,7 +25,7 @@ def read_file():
 
 def build_dataset(apps):
     
-    df = pd.DataFrame(columns=['App_Name', 'App_ID', 'Sentence','STORAGE','CONTACT','LOCATION','CAMERA','MICROPHONE','SMS','CALL_LOG','PHONE','CALENDAR','SETTINGS','TASKS'])
+    df = pd.DataFrame(columns=['App_Name', 'App_ID', 'Sentence'])
 
     app_id_count = 1
     apps_not_found = 0

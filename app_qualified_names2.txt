@@ -1,0 +1,11 @@
+com.google.android.apps.fitness
+homeworkout.homeworkouts.noequipment
+women.workout.female.fitness
+com.sec.android.app.shealth
+loseweightapp.loseweightappforwomen.womenworkoutathome
+menloseweight.loseweightappformen.weightlossformen
+com.myfitnesspal.android
+com.fiton.android
+sixpack.sixpackabs.absworkout
+com.hiitandtabata.android
+steptracker.healthandfitness.walkingtracker.pedometer
