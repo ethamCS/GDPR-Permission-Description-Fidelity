@@ -1,11 +1,11 @@
 import sys
 import os
-import apk_downloader.apkdownloader as apkdl
+import download_util.APKDownloader as apk_dl
 
 def download_apks(file_descriptor):
     app_names = file_descriptor.read().splitlines()
     for name in app_names:
-        apkdl.download_apk(name)
+        apk_dl.download_apk(name)
 
 def main():
 

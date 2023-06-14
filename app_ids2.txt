@@ -1,0 +1,10 @@
+com.getsomeheadspace.android
+com.goodrx
+com.snorelab.app
+com.ada.app
+com.cliniconline
+com.selectcomfort.SleepIQ
+com.sleepscore.drive
+health.sleep.sounds.tracker.alarm.calm
+com.huckleberry_labs.app
+com.calm.android
